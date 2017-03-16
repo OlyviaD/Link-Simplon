@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- <meta name="viewport" content="width=device-width", "initial-scale=1"> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Soumettre un lien</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <form>
+        <p>Les champs marqués d'un (*) sont obligatoires.</p>
+        <div class="col-md-offset-1 col-md-7 lien">
+          <label for="lien">Insérer votre lien<span>*</span>:</label><br/>
+          <input id="lien" type="text" required>
+        </div>
+        <div class="col-md-offset-1 col-md-11 message">
+          <label for="message">Description:</label>
+        </div>
+        <div class="col-md-offset-1 col-md-11 texte">
+          <textarea id="message" type="text" name="" value="" ></textarea>
+        </div>
+        <div class="col-md-offset-1 col-md-11 message">
+          <label for="message">Ajoutez les mots-clés correspondants: <span>*</span></label>
+        </div>
+        <div class="col-md-offset-1 col-md-11 texte">
+          <textarea id="message" type="text" required></textarea>
+        </div>
+        <div class="col-md-offset-1 col-md-11 message">
+          <label for="message">Sélectionnez la(les) catégories(s) correspondante(s): <span>*</span></label>
+        </div>
+        <div class="col-md-offset-1 col-md-11 select">
+          <select multiple required="" style="width:80%";>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="js">JavaScript</option>
+            <option value="resp">Bootstrap</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="js">JavaScript</option>
+            <option value="resp">Bootstrap</option>
+          </select>
+        </div>
+        <div class="row">
+          <div class="col-md-12 vide"></div>
+          <div class="col-md-offset-4 col-md-2">
+            <!-- <button type="submit" name="button">Envoyer</button> -->
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+          </div>
+        </div>
+        <div class="col-md-12 vide"></div>
+      </form>
+    </div> <!--fin du container-->
+
+
+  </body>
+  </html>
