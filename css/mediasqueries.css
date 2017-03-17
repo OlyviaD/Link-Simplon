@@ -1,0 +1,12 @@
+@media only screen and (max-width: 500px) {
+  #url{
+      width: 100%;
+  }
+  #categories{
+      width: 100%;
+  }
+  #tags{
+      width: 100%;
+  }
+
+  }
